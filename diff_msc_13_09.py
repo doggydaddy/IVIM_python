@@ -284,6 +284,8 @@ diff_fit.run()
 # scroll_display(diff_fit.params[:,:,:,3])
 
 
+print('Hi Lulu')
+
 #ivim output
 dw.getOutput(diff_fit.params,diff_fit.label_map)
 dw.writeOutput()
